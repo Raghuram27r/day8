@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset style="background-color: bisque;">
+        <legend style="background-color: rgba(91, 165, 42, 0.445);">PICTURES AND FORM</legend>
+    <center>
+    
+        <h1 align="center">PICTURES</h1>
+        <picture>
+            <source media="(min-width:620px)" srcset="./shirt.jpg" height="300">
+            <source media="(min-width:480px)" srcset="./download.jpeg" height="200">
+            <source media="(min-width:320px)" srcset="./Devara-11-1-306x393.jpg"height="100">
+            <img srcset="./track.jpeg" alt="track" height="100"/>
+        </picture><br>
+        
+    <legend><h1 align="center">FORMS</h1></legend>
+    <form action="./login.html">
+    <input type="submit" value="login"></form>
+    <p><h3>Account Creations</h3></p>
+    
+    <input type="submit" value="signup">
+
+</form>
+    
+<h1>STUDENTS LIST</h1>
+
+<form action="/action_page.php" method="get">
+  <label for="std">Choose students from the list :</label>
+  <input list="students" name="students" id="std">
+  <datalist id="students">
+    <option value="varshini">
+    <option value="salman">
+    <option value="arvindhi">
+    <option value="bhumika">
+    <option value="bhavani">
+  </datalist><br><br>
+  
+  <input type="submit" value="login" formaction="./login.html">
+</form>
+    </center>
+</body>
+</html>
